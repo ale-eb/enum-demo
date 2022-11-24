@@ -43,7 +43,7 @@ public class PaymentServiceTest {
     void getFinalAmount_withTypeCredit_returnAmountWith20percentMore() {
         Payment payment = new Payment();
         payment.setAmount(new BigDecimal("100.00"));
-        payment.setPaymentType(PaymentType.DEBIT);
+        payment.setPaymentType(PaymentType.CREDIT);
 
         BigDecimal finalAmount = paymentService.getFinalAmount(payment);
 
