@@ -1,1 +1,1 @@
-# enum-demo
+# techie-demo
